@@ -1,3 +1,6 @@
-header{
+header, footer, #sec1{
     background-color: #1f2937;
+}
+p, a{
+    color: #F9FAF8;
 }
