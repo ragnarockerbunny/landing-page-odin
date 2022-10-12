@@ -1,14 +1,48 @@
-header, footer, #sec1{
+body{
+    margin: 0px;
+}
+.header, .footer, #sec1{
     background-color: #1f2937;
 }
 p, a{
     color: #F9FAF8;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #3882F6
+}
 #sec1 span{
+    margin-top: 48px;
     width: 50%;
     color: #F9FAF8;
 }
 #sec1{
     display: flex;
     flex-direction: row;
+}
+#sec2 > *{
+    color: black;
+}
+.footer{
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+}
+.header{
+    position: absolute;
+    height: 48px;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 32px;
+    width: 64px;
+    border-radius: 8px;
+    border-style: none;
 }
