@@ -1,17 +1,30 @@
 body{
     margin: 0px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+.header, .footer, .section{
+    box-sizing: border-box;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .header, .footer, #sec1{
     background-color: #1f2937;
 }
-p, a{
+.logo{
     color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
-a{
-    text-decoration: none;
-}
-a:hover{
-    color: #3882F6
+.header{
+    position: absolute;
+    height: 48px;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 #sec1 span{
     margin-top: 48px;
@@ -28,15 +41,18 @@ a:hover{
 .footer{
     position: static;
     bottom: 0;
+    height: 48px;
     width: 100%;
     margin: 0px;
 }
-.header{
-    position: absolute;
-    height: 48px;
-    top: 0;
-    width: 100%;
-    margin: 0px;
+p, a{
+    color: #F9FAF8;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #3882F6
 }
 button{
     background-color: #3882F6;
@@ -45,4 +61,9 @@ button{
     width: 64px;
     border-radius: 8px;
     border-style: none;
+}
+button:active{
+    background-color:#F9FAF8;
+    color: #3882F6;
+    border-style: 4px solid #3882F6;
 }
