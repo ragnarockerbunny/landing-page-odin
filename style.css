@@ -10,7 +10,7 @@ body{
     padding-bottom: 48px;
 }
 .header, .footer, #sec1{
-    background-color: #1f2937;
+    background-color: #19160B;
 }
 .logo{
     color: #F9FAF8;
@@ -48,7 +48,7 @@ body{
 }
 
 #sec2 > *{
-    color: #1f2937;
+    color: #19160B;
 }
 #sec2 > h2 {
     text-align: center;
@@ -62,17 +62,17 @@ body{
     width: 150px;
 }
 #sec2 > span > span > p{
-    color: #1f2937;
+    color: #19160B;
 }
 #sec2 > span > span > img{
-    border: 4px solid #3882F6;
+    border: 4px solid #D0A715;
     border-radius: 8px;
 }
 #sec3{
     background-color: #E5E7EB;
 }
 #sec3 > p{
-    color: #1f2937;
+    color: #19160B;
 }
 .quote{
     font-size: 36px;
@@ -88,7 +88,7 @@ body{
 }
 .calltoaction{
     border-radius: 6px;
-    background-color: #3882F6;
+    background-color: #D0A715;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -125,10 +125,10 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #3882F6
+    color: #D0A715
 }
 button{
-    background-color: #3882F6;
+    background-color: #D0A715;
     color: #F9FAF8;
     height: 32px;
     width: 64px;
@@ -137,8 +137,8 @@ button{
 }
 button:active{
     background-color:#F9FAF8;
-    color: #3882F6;
-    border: 1px solid #3882F6;
+    color: #D0A715;
+    border: 1px solid #D0A715;
 }
 img{
     margin: 24px;
