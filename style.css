@@ -6,8 +6,8 @@ body{
     box-sizing: border-box;
     padding-left:10%;
     padding-right:10%;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 .header, .footer, #sec1{
     background-color: #1f2937;
@@ -26,18 +26,60 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+#sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 #sec1 span{
     margin-top: 48px;
     width: 50%;
     color: #F9FAF8;
 }
-#sec1{
-    display: flex;
-    flex-direction: row;
+#sec1 > p{
+    display: inline;
+    color: #E5E7EB;
+    font-size: 18px;
 }
+
 #sec2 > *{
     color: black;
 }
+
+#sec3{
+    background-color: #E5E7EB;
+}
+#sec3 > p{
+    color: #1f2937;
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter
+}
+.quoteauthor{
+    text-align: right;
+}
+
+#sec4{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.calltoaction{
+    border-radius: 6px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.calltoaction > *{
+    color: #F9FAF8;
+}
+.calltoaction > button{
+    margin-top: 24px;
+    border: 1px solid #F9FAF8;
+}
+
 .footer{
     position: static;
     bottom: 0;
@@ -65,5 +107,8 @@ button{
 button:active{
     background-color:#F9FAF8;
     color: #3882F6;
-    border-style: 4px solid #3882F6;
+    border: 1px solid #3882F6;
+}
+img{
+    margin: 24px;
 }
